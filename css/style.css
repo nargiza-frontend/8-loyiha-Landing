@@ -1,0 +1,47 @@
+
+/* Global */
+html{
+  box-sizing: border-box;
+  height: 100%;
+  scroll-behavior: smooth;
+}
+*,
+*::after,
+*::before{
+  box-sizing:inherit;
+}
+
+body{
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: "Arial",sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  background-color: #fff;
+  color: #222;
+}
+
+img{
+  max-width: 100%;
+  height: auto;
+}
+
+
+/* Container */
+
+.container{
+  width: 100%;
+  max-width: 1200px;
+  padding: 0 50px;
+  margin: 0 auto;
+}
+
+
+/* Main-content */
+
+.main-content{
+  flex-grow: 1;
+}
